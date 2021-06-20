@@ -1,0 +1,29 @@
+2021-06-20 08:28:17,276 INFO com.OnlineDryCleaningApplication [main] Starting OnlineDryCleaningApplication using Java 11.0.11 on DESKTOP-RAMJSQ8 with PID 5336 (C:\OnlineDryCleaningApplication (2)\OnlineDryCleaningApplication\bin\main started by Dell in C:\OnlineDryCleaningApplication (2)\OnlineDryCleaningApplication)
+2021-06-20 08:28:17,337 INFO com.OnlineDryCleaningApplication [main] No active profile set, falling back to default profiles: default
+2021-06-20 08:28:19,543 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-20 08:28:20,213 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 658 ms. Found 7 JPA repository interfaces.
+2021-06-20 08:28:21,542 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8089 (http)
+2021-06-20 08:28:21,572 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8089"]
+2021-06-20 08:28:21,573 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-20 08:28:21,574 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-20 08:28:21,871 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-20 08:28:21,872 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4432 ms
+2021-06-20 08:28:22,110 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-20 08:28:23,022 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-20 08:28:23,858 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-20 08:28:23,911 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-20 08:28:24,076 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-20 08:28:24,265 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-20 08:28:26,978 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-20 08:28:26,990 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 08:28:28,066 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-20 08:28:29,514 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8089"]
+2021-06-20 08:28:29,615 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8089 (http) with context path ''
+2021-06-20 08:28:30,345 INFO com.OnlineDryCleaningApplication [main] Started OnlineDryCleaningApplication in 13.62 seconds (JVM running for 14.902)
+2021-06-20 08:30:22,213 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8089-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-20 08:30:22,215 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8089-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-06-20 08:30:22,219 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8089-exec-1] Completed initialization in 4 ms
+2021-06-20 08:58:18,551 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2021-06-20 08:58:18,984 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 08:58:19,096 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-06-20 08:58:19,136 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
